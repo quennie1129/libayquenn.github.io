@@ -1,0 +1,95 @@
+body{
+    background-image: url("PHOTOS/BackGround 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+h1{
+    color:rgb(201, 24, 83);
+    font-size: 100px;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+p{
+    color:rgb(2, 2, 2);
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center; 
+
+}
+header {
+    overflow: hidden;
+    background-color: rgb(153, 245, 125);
+    /*padding: 20px 10px;*/
+  }
+
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+  .header a.active {
+    background-color: rgb(15, 221, 50);
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+  .footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 245, 125);
+    color: rgb(7, 6, 6);
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #context ul {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    color: rgba(167, 10, 23, 0.979);
+  }
+
+  #context img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
